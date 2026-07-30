@@ -9,5 +9,6 @@
     }
   },
   "postCreateCommand": "npm install",
+  "postStartCommand": "nohup npm run dev -- -H 0.0.0.0 > /tmp/ai-mail-hub.log 2>&1 &",
   "remoteUser": "node"
 }
